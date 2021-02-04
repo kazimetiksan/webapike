@@ -19,7 +19,7 @@ app.post('/api/name', (req, res) => {
 
     const body = _.pick(req.body, ['firstName','lastName'])
     console.log(body)
-    res.send('Welcome '+body.firstName+' '+body.lastName)
+    res.send('Merhaba '+body.firstName+' '+body.lastName)
 })
 
 
